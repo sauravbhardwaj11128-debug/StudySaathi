@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/19Vao7RERE2uxasOFLZLYpHZdde7dAmNq
 """
 
-!pip install streamlit pyngrok pypdf2 Python-docx google-generativeai
+
 
 import google.generativeai as genai
 genai.configure(api_key="AIzaSyAHIqS2uzZbQkEr-ASA1YSJcunDuibHf14") # Replace "YOUR_GEMINI_API_KEY" with your actual API key
