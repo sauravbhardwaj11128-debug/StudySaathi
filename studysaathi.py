@@ -10,7 +10,7 @@ Original file is located at
 
 
 import google.generativeai as genai
-genai.configure(api_key=st.secrets["GEMINI_API"]) # Replace "YOUR_GEMINI_API_KEY" with your actual API key
+genai.configure(api_key=st.secrets["GEMINI_API"])
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 from PyPDF2 import PdfReader
